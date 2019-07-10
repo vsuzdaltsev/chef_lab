@@ -1,0 +1,16 @@
+{
+    "name": "yaa",
+    "description": "Yaa environment defined as JSON",
+    "chef_type": "environment",
+    "json_class": "Chef::Environment",
+    "default_attributes": {
+      "first_cookbook": {
+        "network_prefix": "10.8.1"
+      }
+    },
+    "override_attributes": {
+    },
+    "cookbook_versions": {
+        "example": "= 1.0.0"
+    }
+}
